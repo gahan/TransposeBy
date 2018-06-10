@@ -132,7 +132,7 @@ Adding the ExcelDNA.AddIn library from NuGet to your project results in a few ch
 
 The second major change you&#39;ll probably see is that the Debug property page in the projects properties now reference your installation of Excel (if present) with the .xll of your project referenced as a command line parameter.
 
-
+![Debug Property Panel](https://github.com/gahan/TransposeBy/blob/master/images/Debug%20Property%20Page.PNG "Debug Property Panel")
 
 If you have Excel installed, and I recommend that you do if you&#39;re developing add-ins, you&#39;ll be able to debug your custom function just by hitting F5.  Excel will start with your custom function loaded and by using breakpoints you can step thru your code as you develop and debug.
 
@@ -140,3 +140,4 @@ If you have Excel installed, and I recommend that you do if you&#39;re developin
 
 Distributing your custom function can be done by creating an installer and the Excel-DNA project contains a template for creating a WiX-based installer.  This can be found [here](https://github.com/Excel-DNA/WiXInstaller).  If you just want to quickly install it into your own installation of Excel you can do this by opening the Excel Add-Ins section in Excel Options and browsing to where you stored the .xll file.
 
+![Excel AddIn Options Panel](https://github.com/gahan/TransposeBy/blob/master/images/Excel%20AddIn%20Options%20Panel.PNG "Excel AddIn Options Panel")
